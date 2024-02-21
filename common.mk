@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DERP_BUILDTYPE=Official
+DERP_VERSION_APPEND_TIME_OF_DAY=true
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -30,6 +33,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     KeyHandler \
     tri-state-key-calibrate
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # Atrace
 PRODUCT_PACKAGES += \
