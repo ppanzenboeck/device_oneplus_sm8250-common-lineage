@@ -4,8 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Derp Flags
 DERP_BUILDTYPE=Official
 DERP_VERSION_APPEND_TIME_OF_DAY=true
+TARGET_USES_PICO_GAPPS=true
+EXTRA_UDFPS_ICONS=true
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
