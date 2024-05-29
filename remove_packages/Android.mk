@@ -54,7 +54,8 @@ LOCAL_OVERRIDES_PACKAGES += \
     PrebuiltGmail \
     talkback \
     FilesPrebuilt \
-    ScribePrebuilt
+    ScribePrebuilt \
+    Accord
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
