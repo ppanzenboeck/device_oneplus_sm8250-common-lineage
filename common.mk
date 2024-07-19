@@ -11,8 +11,8 @@ EXTRA_UDFPS_ICONS=true
 TARGET_NOT_USES_BLUR=true
 TARGET_USES_PICO_GAPPS=true
 
-#Viper4Android
-$(call inherit-product, vendor/ViPER4AndroidFXRepackaged/config.mk)
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \

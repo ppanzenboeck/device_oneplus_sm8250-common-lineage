@@ -40,6 +40,7 @@ LatinIMEGooglePrebuilt \
 Phonesky \
 GooglePrintRecommendationService \
 Flipendo \
+GoogleTTS \
 more...
 
 #vendor/gms
@@ -48,7 +49,6 @@ LOCAL_OVERRIDES_PACKAGES += \
     CalendarGooglePrebuilt \
     Chrome-Stub \
     GoogleContacts \
-    GoogleTTS \
     Maps \
     Photos \
     PrebuiltGmail \
