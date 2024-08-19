@@ -55,7 +55,8 @@ LOCAL_OVERRIDES_PACKAGES += \
     talkback \
     FilesPrebuilt \
     ScribePrebuilt \
-    Accord
+    Accord \
+    FossifyGallery
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
