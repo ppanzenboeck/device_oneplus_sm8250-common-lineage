@@ -117,7 +117,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64
+    android.hardware.camera.provider@2.4-service_64 \
     libcamera_metadata_shim \
     libcamera2ndk_vendor \
     libstdc++_vendor \
@@ -291,12 +291,6 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResCommon \
     WifiResTarget
 
-# Oplus-fwk
-PRODUCT_PACKAGES += \
-    oplus-fwk
-
-PRODUCT_BOOT_JARS += \
-    oplus-fwk
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
